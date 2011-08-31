@@ -1,0 +1,437 @@
+/*
+Theme Name: streamreader
+Theme URI: http://www.streamreader.com/
+Description: streamreader.
+Version: 1.0
+Author: Dan Shipper
+Author URI: http://www.danshipper.com
+*/
+html{                 
+}
+body{
+	font: 12px Helvetica;  
+	line-height: 30px;               
+	background-image: url("bg.png");
+	background-repeat: repeat-x;
+    background-color: #e8edf0;     
+    margin: 0px;   
+} 
+    
+@font-face {
+	font-family: Walkway;
+	src: url('WalkwayBold.ttf');
+}
+
+@font-face{
+	font-family: WalkwayBold;
+	src: url('WalkwayBlack.ttf');
+}
+
+
+input:focus {outline: none;}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #5088a8;
+  	text-decoration: none;
+   	
+}
+a img{
+	border: none;	
+}
+ 
+#content{
+	width: 100%;
+	margin: auto;
+}        
+
+#top{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}    
+               
+#top-stream{           
+	padding-bottom: 10px;  
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#right-bar{
+	float: right;
+	padding-top: 20px;
+	font-size: 18px; 
+	font-weight: bold;
+}            
+
+#right-bar a:link{
+	color: #3474c4;  
+	font-weight: bold;
+}
+
+#right-bar a:visited{
+	color: #3474c4;  
+	font-weight: bold;
+}
+
+#logo a {
+	color: #d44361;  
+	font: 61px "Walkway";
+} 
+
+#logo-bold a {
+	color: #d44361;
+	font: 60px "WalkwayBold";
+}     
+
+
+#main-box{
+	width: 100%;
+	background-color: white;
+	box-shadow: 4px 5px 3px #cccccc;
+    -moz-box-shadow: 4px 5px 3px #cccccc; 
+	padding: 20px;
+}
+
+#top{
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+} 
+
+.float-right{
+	float: right;
+}
+
+#main-box-stream{
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;
+	box-shadow: 4px 0px 3px #cccccc;
+    -moz-box-shadow: 4px 0px 3px #cccccc; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px; 
+} 
+
+h1{
+	font: 38px Helvetica;
+	color: #323232;     
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin: 0px;
+}              
+
+h2{
+	font: 20px Georgia;
+	color: #4f5153;  
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+}  
+
+h3{
+	font: 20px Helvetica;
+	color: #4f5153;  
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+}   
+
+#description{
+	float: right; 
+	width: 450px;
+}            
+
+#screenshot{
+	padding-left: 50px;
+}      
+
+#text{
+	padding: 15px;  
+	padding-top: 0px;
+	line-height: 20px;
+} 
+
+#tweeter{
+	background-color: #f4f5f6;
+	box-shadow: 4px 5px 3px #cccccc;
+   	-moz-box-shadow: 4px 5px 3px #cccccc;  
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 10px;  
+	padding-bottom: 10px;
+	line-height: 20px;   
+	font-weight: bold;
+	color: #1e1e1e;  
+	font-size: 14px;     
+}
+                 
+
+#tweeter-inside{      
+	margin: auto;
+}               
+
+#tweet-right{
+	width: 80%;   
+	padding-left: 10px;
+	margin-left: 10px; 
+}  
+
+#tweet-left{
+	float: left;     
+	padding-right: 10px;
+	margin-right: 10px;  
+	margin-left: 60px; 
+	margin-bottom: 10px;
+	
+	
+}         
+
+#author{
+	color: #709ebc; 
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#author a:link{
+	color: #709ebc;  
+	font-size: 14px;
+	font-weight: bold;
+}                  
+      
+#author a:hover{
+	color: #709ebc;  
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#save{
+	position: relative;
+	top: 140px;
+	left: 810px;
+	width: 100px; 
+	line-height: 15px;  	
+}
+    
+
+.twit-link a:link{
+	color: #bbcfc2;
+	font-size: 12px;  
+	padding-left: 10px; 
+	padding-right: 10px;   
+}  
+.twit-link a:hover{
+	color: #5ba274;
+	font-size: 12px;     
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+.tweet{
+display:none;
+	width: 770px;
+	height: 50px;      
+	font: 17px Helvetica;
+	padding: 10px;  
+	border: none;
+	margin-top: 30px; 
+	color: black;    
+	position: relative;
+	bottom: 30px;  
+} 
+
+#twit-container{
+	display:none;
+	width: 795px;
+	position: relative;
+	bottom: 30px;
+}
+
+#chars-count{
+	display:none;
+}
+
+.hideme{
+	display: none;
+}    
+
+.reply-hide{
+	display: none;
+}
+
+.tweet-button{
+	width: 61px;
+	height: 31px; 
+	float: right;
+}   
+
+.hidden{
+	visibility: hidden;
+	height: 0px;
+}  
+
+.unhidden {
+    visibility: visible; 
+}         
+
+#article-image{
+   float: right; 
+} 
+
+.message{
+	color: #d44361; 
+	font-size: 12px;  
+	padding-left: 10px; 
+	padding-right: 10px;
+}    
+
+.twitter-profile-image{
+	max-width: 48px;
+	max-height: 48px;
+}                   
+
+.article-image-class{
+	max-width: 250px;
+	max-height: 250px;
+}
+
+#comments{             
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;      
+	background-color: #FFFFFF; 
+	position: relative;
+	bottom: 30px;
+}                           
+
+.comment-super{
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font: 12px Helvetica;  
+	line-height: 16px;  
+}
+
+.comment-super a:link{
+	color: #709ebc;
+	text-decoration: none;
+}                        
+
+.comment-super a:hover{
+	text-decoration: underline; 
+   
+} 
+
+.comment{                
+	vertical-align: middle;
+	margin-left: 10px; 
+	border-top: solid #b0b0b0 1px;   
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.comment-image-div{
+	float: left;           
+	margin-right: 10px;
+}
+
+.comment-image{   
+	max-height: 45px;
+	max-width: 45px;
+}
+
+.comment-text{
+	display: table-cell; 
+}
+
+.reply{                
+	vertical-align: middle; 
+	margin-left: 40px; 
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: solid #b0b0b0 1px;
+	border-bottom: solid #b0b0b0 1px;
+}
+
+.reply-image-div{
+	float: left; 
+	margin-right: 10px;
+}  
+
+.reply-image{       
+	max-height: 30px;
+	max-width: 30px;
+}
+
+.reply-text{
+	display: table-cell;  
+}
+                    
+.author-name a:link{
+	font: 16px Helvetica; 
+	font-weight: bold;
+}
+
+.author-name a:hover{
+	text-decoration: none;
+}  
+                  
+.comm-link{
+	float: right;
+}
+
+.comm-link a:link{
+	color: #6caceb;
+	font-size: 12px;    
+	padding-right: 10px;   
+}  
+.comm-link a:hover{
+	text-decoration: underline;
+}
+    
+
+#timeline{
+	display:none;
+	float: right;
+	display: block;     
+	width: 210px;                
+}                          
+
+#timeline-top{
+display:none;
+	background-image: url("button-bg.gif");
+	background-repeat: repeat-x;
+	background-color: #aacde3;
+	width: 100%;
+	height: 25px;     
+	color: #303030;
+	font-weight: bold;
+	font-size: 14px;
+}                            
+
+.timeline-item{ 
+display:none;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	border: solid #b0b0b0 1px;  
+	box-shadow: 4px 5px 3px #cccccc;
+   	-moz-box-shadow: 4px 5px 3px #cccccc; 
+	padding-left: 5px;
+}  
+
+.highlight{
+	background-color: #ebebeb;
+}

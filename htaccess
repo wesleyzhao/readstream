@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+
+RewriteEngine On
+
+# Silently sends URLs of the form /foo to /profile.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /article.php [L]

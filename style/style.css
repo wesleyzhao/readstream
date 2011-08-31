@@ -1,0 +1,602 @@
+/*
+Theme Name: streamreader
+Theme URI: http://www.streamreader.com/
+Description: streamreader.
+Version: 1.0
+Author: Dan Shipper
+Author URI: http://www.danshipper.com
+*/
+html{                 
+}
+body{
+	font: 13px Lucida Grande, sans-serif;  
+	line-height: 30px;               
+	background-image: url("bg.png");
+	background-repeat: repeat-x;
+    background-color: #e8edf0;     
+    margin: 0px;   
+} 
+    
+@font-face {
+	font-family: Walkway;
+	src: url('WalkwayBold.ttf');
+}
+
+@font-face{
+	font-family: WalkwayBold;
+	src: url('WalkwayBlack.ttf');
+}
+
+
+input:focus {outline: none;}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #5088a8;
+  	text-decoration: none;
+   	
+}
+
+a:hover{
+	text-decoration:underline;
+}
+a img{
+	border: none;	
+}
+ 
+#content{
+	width: 1010px;
+	margin: auto;
+} 
+#content-index{
+	width: 800px;
+	margin: auto;
+}       
+
+#top{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}    
+               
+#top-stream{           
+	padding-bottom: 10px;  
+	width: 1010px;
+}
+
+#right-bar{
+	float: right;
+	padding-top: 20px;
+	font-size: 14px;
+}            
+
+#right-bar a:link{
+	color: #3474c4;  
+	font-weight: bold;
+}
+
+#right-bar a:visited{
+	color: #3474c4;  
+	font-weight: bold;
+}
+
+#right-bar a:hover{
+	text-decoration:underline;
+}
+
+#logo a {
+	color: #d44361;  
+	font: 48px "Walkway";
+} 
+
+#logo-bold a {
+	color: #d44361;
+	font: 47px "WalkwayBold";
+}     
+
+#logo{
+	padding-top: 5px;
+}    
+
+#main-box{
+	width: 750px;
+	background-color: white;
+	box-shadow: 4px 5px 3px #cccccc;
+    -moz-box-shadow: 4px 5px 3px #cccccc; 
+	padding: 20px;    
+}
+
+#top{
+	width: 750px;
+} 
+
+.float-right{
+	float: right;
+} 
+
+
+.stream-twitter-button{
+	margin-left: 35px;
+}
+#main-box-stream{
+	width: 750px;
+	background-color: white;
+	box-shadow: 4px 0px 3px #cccccc;
+    -moz-box-shadow: 4px 0px 3px #cccccc; 
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;   
+} 
+
+h1{
+	font: 28px Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+	color: #323232;     
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin: 0px;
+	letter-spacing:-1px;
+}              
+
+h2{
+	font: 20px Georgia;
+	color: #4f5153;  
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	line-height:20px;
+}  
+
+h3{
+	font: 18px;
+	color: #4f5153;  
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	line-height:10px;
+}   
+     
+h4{
+	font: 18px;
+	color: #4f5153;  
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+#description{
+	float: right; 
+	width: 450px;
+}            
+
+#screenshot{
+	padding-left: 50px;
+}      
+
+#text{
+	padding: 15px;  
+	padding-top: 0px;
+	line-height: 20px;
+	font-family: "Lucida Grande", Verdana;
+	font-size: 13px;
+	text-align: justify;
+} 
+
+#tweeter{
+	background-color: #f4f5f6;
+	box-shadow: 4px 5px 3px #cccccc;
+   	-moz-box-shadow: 4px 5px 3px #cccccc;  
+	width: 790px;  
+	padding-top: 10px;  
+	padding-bottom: 10px;
+	line-height: 20px;   
+	font-weight: bold;
+	color: #1e1e1e;  
+	font-size: 14px;     
+}
+                 
+
+#tweeter-inside{      
+	margin: auto;
+}               
+
+#tweet-right{
+	width: 600px;   
+	padding-left: 10px;
+	margin-left: 10px; 
+}  
+
+#tweet-left{
+	float: left;     
+	padding-right: 10px;
+	margin-right: 10px;  
+	margin-left: 60px; 
+	margin-bottom: 10px;
+	
+	
+}         
+
+#author{
+	color: #709ebc; 
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#author a:link{
+	color: #709ebc;  
+	font-size: 14px;
+	font-weight: bold;
+}                  
+      
+#author a:hover{
+	color: #709ebc;  
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#save{
+	position: relative;
+	top: 140px;
+	left: 810px;
+	width: 100px; 
+	line-height: 15px;  	
+}
+    
+.twit-link{
+	color: #bbcfc2;
+	font-size: 12px;  
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+.twit-link a:link{
+	color: #bbcfc2;
+	font-size: 12px;  
+	padding-left: 10px; 
+	padding-right: 10px;   
+}  
+.twit-link a:hover{
+	color: #5ba274;
+	font-size: 12px;     
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+.tweet{
+	width: 770px;
+	height: 50px;      
+	font: 17px Helvetica;
+	padding: 10px;  
+	border: none;
+	margin-top: 30px; 
+	color: black; 
+	background-color: #fdfdfd;
+    border: solid #a9a9a9 1px;
+} 
+
+#twit-container{
+	width: 795px;       
+}
+
+.hideme{
+	display: none;
+}    
+
+.reply-hide{
+	display: none;
+}
+
+.tweet-button{
+	width: 61px;
+	height: 31px; 
+	float: right;
+}   
+
+.hidden{
+	visibility: hidden;
+	height: 0px;      
+}  
+
+.unhidden {
+    visibility: visible;
+ 	display: inline;
+	margin: 0px;
+	padding: 0px;
+} 
+
+.loading-hidden{     
+	display: none;
+	height: 25px;
+	text-align: center;
+} 
+
+.loading{
+	display: inline;
+}
+
+.loading img{
+	padding-top:10px;
+}
+
+#article-image{
+   float: right;
+} 
+
+.message{
+	color: #d44361; 
+	font-size: 12px;  
+	padding-left: 10px; 
+	padding-right: 10px;
+}    
+
+.twitter-profile-image{
+	max-width: 48px;
+	max-height: 48px;
+}                   
+
+.article-image-class{
+	max-width: 250px;
+	max-height: 250px;
+	padding:5px 5px 5px 10px;
+	vertical-align:middle;
+}
+
+#comments{             
+	width: 770px;
+	padding: 10px;      
+	background-color: #FFFFFF; 
+}                           
+
+.comment-super{
+	width: 600px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font: 12px Helvetica;  
+	line-height: 16px;  
+}
+
+.comment-super a:link{
+	color: #709ebc;
+	text-decoration: none;
+}                        
+
+.comment-super a:hover{
+	text-decoration: underline; 
+   
+} 
+
+.comment{                
+	vertical-align: middle;
+	margin-left: 10px; 
+	border-top: solid #b0b0b0 1px;   
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.comment-image-div{
+	float: left;           
+	margin-right: 10px;
+}
+
+.comment-image{   
+	max-height: 45px;
+	max-width: 45px;
+}
+
+.comment-text{
+	display: table-cell; 
+}
+
+.reply{                
+	vertical-align: middle; 
+	margin-left: 40px; 
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: solid #b0b0b0 1px;
+	border-bottom: solid #b0b0b0 1px;
+}
+
+.reply-image-div{
+	float: left; 
+	margin-right: 10px;
+}  
+
+.reply-image{       
+	max-height: 30px;
+	max-width: 30px;
+}
+
+.reply-text{
+	display: table-cell;  
+}
+                    
+.author-name a:link{
+	font: 16px Helvetica; 
+	font-weight: bold;
+}
+
+.author-name a:hover{
+}  
+                  
+.comm-link{
+	float: right;
+}
+
+.comm-link a:link{
+	color: #6caceb;
+	font-size: 12px;    
+	padding-right: 10px;   
+}  
+.comm-link a:hover{
+	text-decoration: underline;
+}
+    
+
+#timeline-super{        
+	display: block;     
+	width: 210px;
+	min-height: 700px;  
+	float: right;              
+} 
+
+#timeline{
+	width: 210px;  
+	float: right; 
+} 
+
+
+#timeline-top{
+	/*
+background-image: url("button-bg.gif");
+	background-repeat: repeat-x;
+*/
+	background-color: #F7D4D9;
+	width: 100%;
+	height: 30px;     
+	color: #303030;
+	font-weight: bold;
+	letter-spacing:.5px;
+	font-size: 18px;
+}                            
+
+.timeline-item{ 
+	overflow: hidden;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	border: solid #b0b0b0 1px;  
+	box-shadow: 4px 5px 3px #cccccc;
+   	-moz-box-shadow: 4px 5px 3px #cccccc; 
+	padding-left: 5px;
+}  
+
+.timeline-item a:link {
+	padding-bottom:10px;
+}
+
+.highlight{
+	background-color: #ebebeb;
+}   
+
+
+.login-bar{ 
+	overflow: hidden;
+	background-color: #FFFFFF;  
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	border: solid #b0b0b0 1px;  
+	box-shadow: 4px 5px 3px #cccccc;
+   	-moz-box-shadow: 4px 5px 3px #cccccc; 
+	padding-left: 5px;   
+	line-height: 26px;
+	font-size: 20px;
+}  
+
+.arrow{
+	font: 48px Helvetica;
+	padding: 10px 0px 10px 0px;
+}                
+
+#arrow-right{      
+	float: right;
+	display:inline;
+	margin-left:10px;
+	margin:0px 20px 0px 0px;
+	z-index:-20;
+	padding:0px 5px 0px 5px;
+}                
+
+#arrow-left{     
+	float: left;
+	padding:10px 5px 5px 5px;
+	
+}   
+  
+#arrow-right a:link{
+	color: #d44361; 
+	font-size: 28px;
+	display:block;
+	vertical-align:middle;
+	font-weight:bold;
+	letter-spacing:-1px;
+}                  
+
+#arrow-left a:link{
+	color: #969696; 
+	font-size: 40px;
+}
+
+#arrow-left a:hover{
+	color: #969696;
+	background: #DEDEDE;
+	text-decoration:none;
+} 
+
+#arrow-right a:hover{
+	color: #ff7e7e;
+	background: #DEDEDE;
+	text-decoration:none;
+} 
+
+#arrow-right:hover{
+	color: #ff7e7e;
+	background: #DEDEDE;
+}           
+
+.title-super{
+	width: 680px;
+}    
+
+#title{
+	display: table-cell;
+}
+    
+.twimage{
+	width: 60px;
+	height: 60px;       
+} 
+
+.twitter-table td{
+	text-align: center;
+	padding: 20px;
+	line-height: 15px;
+} 
+
+#fb-like{
+	position: relative;
+	top: 15px;
+	display: inline;
+}
+
+#twitter-button{
+	display: inline;
+}  
+
+#about{
+	position: relative;
+	top: 10px;      
+	float: right;
+}
+
+#disclaimer{
+	font: 12px Georgia;
+	color: #4f5153;
+}    
+
+#emb{
+	line-height: 20px; 
+}
+
+#plug {
+	padding-top:5px;
+	font-size:14px;
+}
+
+#plug a:hover {
+	text-decoration:none;
+}
+
+#plug a img {
+	padding-top:5px;
+}

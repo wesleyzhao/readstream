@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>              
+<meta charset="utf-8" />
+<title>ReadStream | read what's happening now</title> 
+<link rel="stylesheet" type="text/css" href="style/mobile.css">
+<script type="text/javascript"
+ src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+</script> 
+<script type="text/javascript" src="js/stream.js"></script>  
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+</head>                                         
+<body>
+	
+	<div id="content">
+	   
+		<div id="top-stream">   
+			<div id="right-bar">read what's happening now | <a href="/readstream/logout.php">logout</a></div>
+			<span id="logo"><a href="/readstream">read</a></span><span id="logo-bold"><a href="/readstream">stream</a></span>
+	    </div> 
+		 <div id="timeline">
+				<div id="timeline-top">
+					<center>Articles</center>
+				</div> 
+		 </div>
+		
+		<div id="replace">
+			<div id="main-box-stream">
+				<center>
+					 <h2>Your content is loading - please wait. Swipe to navigate.</h2>
+					 <br>
+					<img src="images/loading.gif">
+				</center>
+		    </div>
+		</div>
+		<div class="hideme">
+		<textarea class="tweet" id="tweet" onFocus = "twitReplace()">Leave a Twitter comment</textarea>
+		<div id="twit-container">
+		<input type="image" src="images/tweet.png" class="tweet-button" onclick="javascript:sendTweet();">
+		<div id="chars-count">140 characters left</div>
+		</div>
+		<br> 
+		<div id="comments">
+			<h3>Comments</h3>
+			<div class="comment-super" id="1234">
+				<div class="comment">
+					<div class="comment-image-div">
+						<img class="comment-image" src="images/twimage.png">
+					</div>                          
+					<div class="comment-text">
+						<div class="author-name">
+							<a href="http://twitter.com/danshipper">@danshipper</a>
+						</div>
+						this is such a cool story! yea man sooper fucking cool stuff i really love all of this dude really really sweet dude
+						<div class="social">
+							<div class="comm-link"><a href="#">Retweet</a> <a href="#">Reply</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="reply" id="4567">
+				   	<div class="reply-image-div">
+						<img class="reply-image" src="images/twimage.png">
+					</div>                          
+					<div class="reply-text">
+						<div class="author-name">
+							<a href="http://twitter.com/danshipper">@danshipper</a>
+						</div>
+						this is such a cool story! yea man sooper fucking cool stuff i really love all of this dude really really sweet dude
+						<div class="social">
+							<div class="comm-link"><a href="#">Retweet</a> <a href="#">Reply</a></div>
+						</div>
+					</div>
+				</div>
+			</div> 
+			
+				
+		</div>
+		</div> 
+		<div class="reply-hide"></div>
+		
+	</div>                       
+	
+	<script type="text/javascript">
+	var _sf_async_config={uid:19911,domain:"tasteplug.com"};
+	(function(){
+	  function loadChartbeat() {
+	    window._sf_endpt=(new Date()).getTime();
+	    var e = document.createElement('script');
+	    e.setAttribute('language', 'javascript');
+	    e.setAttribute('type', 'text/javascript');
+	    e.setAttribute('src',
+	       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+	       "js/chartbeat.js");
+	    document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != 'function') ?
+	     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+
+	</script>	
+</body>                                   
